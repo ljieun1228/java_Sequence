@@ -6,15 +6,14 @@ package arithmetic;
 //2+8+14+20+26=70
 public class Sequence {
 	public static void main(String[] args) {
-		String res = "";
 		int sum = 0;
 		for(int i=0;i<5;i++){
 			if(i!=4){
 				System.out.print(2+6*i+"+");
 			}else
 				System.out.print(2+6*i+"=");
-			}
-			for(int i=0;i<5;i++){
+		}
+		for(int i=0;i<5;i++){
 			sum += 2+6*i;
 		}
 			System.out.print(sum);
